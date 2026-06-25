@@ -12,7 +12,7 @@ function escapar(string $valor): string
     return htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
 }
 
-$tituloPagina = 'Gestor personal de Tareas XD';
+$tituloPagina = 'Gestor personal de Tareas.';
 $textoPrincipal = 'Crea y administra tus Tareas y subtareas.';
 ?>
 <!DOCTYPE html>
