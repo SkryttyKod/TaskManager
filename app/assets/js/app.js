@@ -170,7 +170,7 @@ function mostrarGrupos() {
     elementos.listaGrupos.replaceChildren();
 
     if (estadoAplicacion.grupos.length === 0) {
-        mostrarCajaEstado('empty-state', 'Todavía no hay grupos. Crea el primero desde el formulario.');
+        mostrarCajaEstado('empty-state', 'Todavía no hay tareas. Crea la primera desde el formulario.');
         return;
     }
 
